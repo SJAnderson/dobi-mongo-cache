@@ -3,7 +3,6 @@
 merge = require 'deepmerge'
 mongodb = require 'mongodb'
 
-
 # exports
 class exports.MongoCache
   constructor: (cfg) ->

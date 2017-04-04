@@ -1,10 +1,9 @@
 {
-  "name": "mongo-cache",
+  "name": "dobi-mongo-cache",
   "description": "Simple MongoDB Cache for nodejs",
-  "author": "Bryant Williams <b.n.williams@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/scien/node-mongo-cache.git"
+    "url": "git://github.com/lessthan3/dobi-mongo-cache.git"
   },
   "scripts": {
     "start":    "cake start",
@@ -13,9 +12,9 @@
   },
   "dependencies": {
     "coffee-script":  "1.7.x",
-    "deepmerge": "0.2.x",
-    "mongodb": "1.4.x"
+    "deepmerge": "1.3.x",
+    "mongodb": "2.2.25"
   },
   "main": "./lib/index",
-  "version": "1.0.3"
+  "version": "2.0.0"
 }
